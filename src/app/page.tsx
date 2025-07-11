@@ -2,8 +2,10 @@ export default function Home() {
   return (
     <div className="main flex justify-between ml-80 mr-80 mt-48 mb-48 p-4 ">
       <div className="flex-col p-4">
-        <span className="block text-6xl font-bold">Aryan Agrawal</span>
-        <span className="block mt-2 text-xl font-extralight">
+        <span className="block text-6xl font-bold cursor-default select-none">
+          Aryan Agrawal
+        </span>
+        <span className="block mt-5 text-xl font-extralight cursor-default select-none">
           Full Stack Developer
         </span>
       </div>
