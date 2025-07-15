@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --lighttxt: #94a3b8;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -10,6 +11,10 @@
     --background: #0f172a;
     --foreground: #ededed;
   }
+}
+
+.text-lighttext {
+  color: var(--lighttxt);
 }
 
 body {
@@ -24,12 +29,12 @@ body {
   height: 720px;
   background: radial-gradient(
     circle,
-    rgba(100, 154, 255, 0.08) 0%,
-    rgba(100, 154, 255, 0.05) 20%,
-    rgba(100, 154, 255, 0.03) 40%,
-    rgba(100, 154, 255, 0.015) 60%,
-    rgba(100, 154, 255, 0.005) 75%,
-    rgba(100, 154, 255, 0) 90%
+    rgba(104, 193, 252, 0.10) 0%,
+    rgba(104, 193, 252, 0.06) 20%,
+    rgba(104, 193, 252, 0.04) 40%,
+    rgba(104, 193, 252, 0.015) 60%,
+    rgba(104, 193, 252, 0.005) 75%,
+    rgba(104, 193, 252, 0) 90%
   );
 
   border-radius: 9999px;
@@ -39,3 +44,7 @@ body {
   mix-blend-mode: screen;
   transition: opacity 0.3s ease;
 }
+
+/* .expCard:hover{
+
+} */
