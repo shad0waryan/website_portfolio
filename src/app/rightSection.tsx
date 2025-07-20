@@ -8,10 +8,10 @@ export default function RightSection() {
     >
       <About />
       <section className="group pr-6 ">
-        <h2 className="text-2xl font-semibold text-lighttext mb-4 cursor-default ">
+        <h2 className="text-2xl font-semibold text-lighttext mb-4 cursor-default select-none ">
           Experience
         </h2>
-        <div id="experience" className="scroll-mt-[170px]">
+        <div id="experience" className="select-none scroll-mt-[170px]">
           <ExperienceCard
             from="Aug 2023"
             to="Present"
@@ -21,7 +21,7 @@ export default function RightSection() {
             techStack={["React.js", "Oracle PL/SQL", "JavaScript"]}
           />
         </div>
-        <div>
+        <div className="select-none">
           <ExperienceCard
             from="Feb 2023"
             to="Jul 2023"
