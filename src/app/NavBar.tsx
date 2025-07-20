@@ -1,10 +1,10 @@
 "use client";
 export default function NavBar() {
   return (
-    <div className="mt-24 top-1/3 flex flex-col gap-6 text-sm font-semibold tracking-wider text-gray-40 w-96">
+    <div className="mt-24 top-1/3 flex flex-col gap-10 text-sm font-semibold tracking-wider text-gray-40 w-96">
       <NavItem label="ABOUT" href="#about" />
       <NavItem label="EXPERIENCE" href="#experience" />
-      <NavItem label="PROJECTS" href="#projects" disabled />
+      <NavItem label="PROJECTS" href="#projects" />
     </div>
   );
 }

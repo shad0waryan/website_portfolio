@@ -9,11 +9,11 @@ export default function Home() {
         <div className="hidden lg:block w-96">
           <NavBar />
         </div>
-        <div className="block mt-8 lg:mt-96">
+        <div className="block mt-8 lg:mt-84">
           <Socials />
         </div>
       </div>
-      <div className="mt-24 lg:mt-0  lg:ml-120 xl:ml-196">
+      <div className="mt-24 lg:mt-0 lg:ml-120 xl:ml-196">
         <RightSection />
       </div>
     </div>
