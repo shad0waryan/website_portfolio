@@ -33,7 +33,7 @@ export default function ExperienceCard({
   "
     >
       <div className="flex flex-col sm:flex-row gap-6 ">
-        <div className="w-32 text-sm text-neutral-400 font-mono">
+        <div className="w-96 text-sm text-neutral-400 font-mono">
           {from} — {to}
         </div>
 
