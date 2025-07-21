@@ -10,8 +10,17 @@ export default function About() {
 
       <p className="text-lighttext">
         Currently, I work at{" "}
-        <strong className="text-[#E2E8F0]">Tech Mahindra</strong> on enterprise
-        on HR and finance system application development called
+        <strong className="text-[#E2E8F0] ">
+          <a
+            href="https://www.techmahindra.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" hover:text-sky-300 transition-colors duration-200"
+          >
+            Tech Mahindra
+          </a>
+        </strong>{" "}
+        on enterprise on HR and finance system application development called
         <strong className="text-[#E2E8F0]">
           {" "}
           Financial Accounting Package(FAP)
@@ -29,8 +38,28 @@ export default function About() {
 
       <p className="text-lighttext">
         Previously, at{" "}
-        <strong className="text-[#E2E8F0]">Elysian CorpTech</strong>, I built a
-        comprehensive{" "}
+        <strong className="text-[#E2E8F0]">
+          <a
+            href="https://elysiancorptech.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" hover:text-sky-300 transition-colors duration-200"
+          >
+            Elysian Corptech
+          </a>
+        </strong>
+        , I was tasked with the project{" "}
+        <strong className="text-[#E2E8F0]">
+          <a
+            href="https://growmaxbi.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" hover:text-sky-300 transition-colors duration-200"
+          >
+            GrowMax- BI
+          </a>
+        </strong>
+        , where I built a comprehensive{" "}
         <strong className="text-[#E2E8F0]">Order Management System</strong>,
         dynamic <strong className="text-[#E2E8F0]">Product Assortment</strong>{" "}
         tools, and real-time{" "}

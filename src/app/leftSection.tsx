@@ -1,8 +1,8 @@
 export default function LeftSection() {
   return (
     <div className="flex flex-col w-full max-w-lg xl:max-w-none items-center xl:items-start">
-      <span className="block text-center text-4xl sm:text-5xl lg:text-6xl font-bold cursor-default select-none">
-        Aryan Agrawal
+      <span className="block text-center text-4xl sm:text-5xl lg:text-6xl font-bold cursor-pointer select-none transition-transform duration-800  hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.5)]">
+        <a href="/">Aryan Agrawal</a>
       </span>
       <span className="block text-right mt-4 text-lg sm:text-xl font-extralight cursor-default select-none ">
         Full Stack Developer
