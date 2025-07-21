@@ -1,18 +1,19 @@
 export default function LeftSection() {
   return (
-    <div className="flex flex-col w-108">
-      <span className="block text-center text-4xl sm:text-5xl lg:text-left lg:text-6xl font-bold cursor-default select-none">
+    <div className="flex flex-col w-full max-w-lg xl:max-w-none items-center xl:items-start">
+      <span className="block text-center text-4xl sm:text-5xl lg:text-6xl font-bold cursor-default select-none">
         Aryan Agrawal
       </span>
-      <span className="block text-center mt-4 text-lg sm:text-xl lg:text-left font-extralight cursor-default select-none">
+      <span className="block text-right mt-4 text-lg sm:text-xl font-extralight cursor-default select-none ">
         Full Stack Developer
       </span>
     </div>
   );
 }
+
 export function Socials() {
   return (
-    <div className="flex gap-8 w-96 lg:justify-start justify-center align-middle">
+    <div className="flex gap-6 flex-wrap xl:justify-start">
       <img
         src="/linkedin.png"
         alt="LinkedIn Profile"

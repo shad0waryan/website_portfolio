@@ -7,8 +7,8 @@ export default function RightSection() {
       className="flex flex-col gap-28 max-w-2xl text-base sm:text-lg mx-auto text-left mb-48 scroll-mt-[150px]"
     >
       <About />
-      <section className="group pr-6 ">
-        <h2 className="text-2xl font-semibold text-lighttext mb-4 cursor-default select-none ">
+      <section className="group pr-6 xl:mt-0 mt-20 ">
+        <h2 className="text-2xl font-semibold text-lighttext mb-6 cursor-default select-none ">
           Experience
         </h2>
         <div id="experience" className="select-none scroll-mt-[170px]">
