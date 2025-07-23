@@ -9,7 +9,7 @@ export default function Projects() {
 
       <div
         id="projects"
-        className="flex flex-col gap-10 h-screen scroll-mt-[160px]"
+        className="flex flex-col gap-10 h-fit scroll-mt-[160px]"
       >
         <ProjectCard
           image="/shad0wbucks.png"
