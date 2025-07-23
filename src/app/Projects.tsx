@@ -7,7 +7,6 @@ export default function Projects() {
         Projects
       </h2>
 
-      {/* Outer group for dimming */}
       <div
         id="projects"
         className="flex flex-col gap-10 h-screen scroll-mt-[160px]"
