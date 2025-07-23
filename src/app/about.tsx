@@ -15,7 +15,7 @@ export default function About() {
             href="https://www.techmahindra.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className=" hover:text-sky-300 transition-colors duration-200"
+            className=" hover:text-teal-300 transition-colors duration-200"
           >
             Tech Mahindra
           </a>
@@ -43,7 +43,7 @@ export default function About() {
             href="https://elysiancorptech.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className=" hover:text-sky-300 transition-colors duration-200"
+            className=" hover:text-teal-300 transition-colors duration-200"
           >
             Elysian Corptech
           </a>
@@ -54,7 +54,7 @@ export default function About() {
             href="https://growmaxbi.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className=" hover:text-sky-300 transition-colors duration-200"
+            className=" hover:text-teal-300 transition-colors duration-200"
           >
             GrowMax- BI
           </a>

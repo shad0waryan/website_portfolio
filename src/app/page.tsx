@@ -11,7 +11,7 @@ export default function Home() {
           <div className="hidden xl:block mt-12 w-fit ">
             <NavBar />
           </div>
-          <div className="mt-12 w-full flex justify-center xl:justify-start xl:mt-80">
+          <div className="mt-16 w-full flex justify-center xl:justify-start xl:mt-72">
             <Socials />
           </div>
         </div>

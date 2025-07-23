@@ -10,7 +10,7 @@ export default function RightSection() {
     >
       <About />
       <Experience />
-      {/* <Projects /> */}
+      <Projects />
     </div>
   );
 }

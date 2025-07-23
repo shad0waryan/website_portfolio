@@ -27,7 +27,7 @@ function NavItem({
       }`}
     >
       <span className="block w-8 h-[1px] bg-gray-400 group-hover:bg-gray-100 group-hover:scale-x-125 group-hover:translate-x-4 transition-transform origin-left" />
-      <span className="group-hover:translate-x-4 transition-transform">
+      <span className="text-gray-400 group-hover:translate-x-4 transition-transform hover:text-gray-100">
         {label}
       </span>
     </a>
