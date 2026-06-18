@@ -9,17 +9,16 @@ export default function About() {
       </p>
 
       <p className="text-lighttext">
-        Over the past few years, I’ve worked on enterprise applications
-        supporting thousands of users, developing business-critical features,
-        workflow automation solutions, and secure{" "}
-        <strong className="text-[#E2E8F0]">
-          role-based access control
-        </strong>{" "}
+        Over the past <strong className="text-[#E2E8F0]">3</strong> years, I’ve
+        worked on enterprise applications supporting thousands of users,
+        developing business-critical features, workflow automation solutions,
+        and secure{" "}
+        <strong className="text-[#E2E8F0]">role-based access control</strong>{" "}
         systems. My experience includes building reusable{" "}
         <strong className="text-[#E2E8F0]">React.js</strong> and{" "}
         <strong className="text-[#E2E8F0]">TypeScript</strong> components,
-        integrating REST APIs, and developing solutions across HR and finance
-        domains.
+        integrating <strong className="text-[#E2E8F0]">REST APIs</strong>, and
+        developing solutions across HR and finance domains.
       </p>
 
       <p className="text-lighttext">
