@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="flex flex-col gap-4 text-wrap">
+    <section className="flex flex-col gap-4 text-wrap w-[90%]">
       <p className="text-lighttext">
         I’m a software engineer passionate about building fast, responsive, and
         user-centric web applications. I enjoy working across the stack,
@@ -9,7 +9,7 @@ export default function About() {
       </p>
 
       <p className="text-lighttext">
-        Over the past <strong className="text-[#E2E8F0]">3</strong> years, I’ve
+        Over the past <strong className="text-[#E2E8F0]">3 years</strong>, I’ve
         worked on enterprise applications supporting thousands of users,
         developing business-critical features, workflow automation solutions,
         and secure{" "}

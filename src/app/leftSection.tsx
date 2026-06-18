@@ -14,7 +14,7 @@ export default function LeftSection() {
 export function Socials() {
   return (
     <div>
-      <div className="flex flex-col text-gray-100 cursor-pointer gap-7">
+      <div className="flex flex-col text-gray-100  cursor-pointer gap-7">
         <a
           href="https://mail.google.com/mail/?view=cm&fs=1&to=aryann7078@gmail.com"
           target="_blank"

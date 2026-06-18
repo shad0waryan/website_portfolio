@@ -7,15 +7,14 @@ export default function Projects() {
         Projects
       </h2>
 
-      <div
-        id="projects"
-        className="flex flex-col gap-10 h-fit scroll-mt-[160px]"
-      >
+      <div id="projects" className="flex flex-col gap-8 h-fit scroll-mt-[160px]">
         <ProjectCard
           image="/noblindspot.png"
           title="NoBlindSpot"
-          link="http://noblindspot.onrender.com/"
+          liveLink="http://noblindspot.onrender.com/"
+          codeLink="https://github.com/shad0waryan/NoBlindSpot"
           description="Full-stack AI knowledge management platform for creating, organizing, and visualizing interconnected knowledge maps. Integrates OpenRouter-powered generation for structured nodes, topic relationships, summaries, and learning pathways."
+          impactTags={["AI SaaS", "Auth", "Knowledge Maps"]}
           techStack={[
             "React.js",
             "Node.js",
@@ -29,8 +28,10 @@ export default function Projects() {
         <ProjectCard
           image="/shad0wbucks.png"
           title="Shad0wbucks"
-          link="https://shad0wbucks.netlify.app/"
+          liveLink="https://shad0wbucks.netlify.app/"
+          codeLink="https://github.com/shad0waryan/shad0wbucks"
           description="Starbucks-inspired frontend with authentication, cart management, responsive UI, dynamic routing, and smooth product carousels. Uses Firebase Authentication for secure email/password login."
+          impactTags={["E-commerce", "Firebase Auth", "Cart"]}
           techStack={[
             "React.js",
             "React Router",
@@ -44,8 +45,10 @@ export default function Projects() {
         <ProjectCard
           image="/fluxbasket.png"
           title="FluxCart"
-          link="https://fluxcart-0ptw.onrender.com/"
+          liveLink="https://fluxcart-0ptw.onrender.com/"
+          codeLink="https://github.com/shad0waryan/fluxCart"
           description="Next.js e-commerce platform with product browsing and cart management. Built with reusable TypeScript components, type-safe API contracts, server-side rendering, and file-based routing for performance and SEO."
+          impactTags={["SSR", "Type Safe", "E-commerce"]}
           techStack={["Next.js", "TypeScript", "Tailwind CSS", "SSR"]}
           accent="from-sky-300 via-indigo-300 to-fuchsia-300"
         />

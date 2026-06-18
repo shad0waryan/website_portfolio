@@ -3,24 +3,26 @@ import RightSection from "./rightSection";
 import NavBar from "./NavBar";
 export default function Home() {
   return (
-    <div className="flex flex-col xl:flex-row justify-between gap-16 px-6 xl:px-24 py-24 min-h-screen">
+    <div className="min-h-screen py-12 sm:px-6 sm:py-16 xl:px-24 xl:py-24">
       {/* Left Side */}
-      <div className="xl:w-1/2 flex flex-col right-2 items-center xl:items-end">
-        <div className="xl:sticky top-24">
-          <LeftSection />
-          <div className="hidden xl:block mt-12 w-fit ">
-            <NavBar />
+      <aside className="flex flex-col items-center xl:fixed xl:bottom-24 xl:left-64 xl:top-24 xl:w-[38%] xl:items-start">
+        <div className="w-full xl:flex xl:h-full xl:flex-col xl:justify-between">
+          <div>
+            <LeftSection />
+            <div className="hidden xl:block mt-12 w-fit ">
+              <NavBar />
+            </div>
           </div>
-          <div className="mt-16 w-full flex justify-center xl:justify-start xl:mt-72">
+          <div className="mt-10 w-full flex justify-center xl:justify-start xl:mt-0">
             <Socials />
           </div>
         </div>
-      </div>
+      </aside>
 
       {/* Right Side */}
-      <div className="w-full xl:w-3/5 mt-20 xl:mt-0 ">
+      <main className="mt-8 w-full xl:ml-auto xl:mt-0 xl:w-[54%]">
         <RightSection />
-      </div>
+      </main>
     </div>
   );
 }
