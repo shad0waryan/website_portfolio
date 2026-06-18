@@ -8,7 +8,7 @@ export default function Experience() {
       <div id="experience" className="select-none scroll-mt-[170px]">
         <ExperienceCard
           from="Aug 2023"
-          to="Present"
+          to="June 2026"
           role="Software Engineer"
           company="Tech Mahindra"
           description="Built and integrated responsive frontend interfaces for key HRMS modules using ReactJS, improving user experience and operational workflows. Resolved critical PL/SQL backend issues to ensure accurate fringe benefit processing. Contributed to multiple modules—Loans, Leave, Medical Claims, and more—while enhancing system security with role-based screen access controls."

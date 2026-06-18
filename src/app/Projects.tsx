@@ -12,31 +12,42 @@ export default function Projects() {
         className="flex flex-col gap-10 h-fit scroll-mt-[160px]"
       >
         <ProjectCard
+          image="/noblindspot.png"
+          title="NoBlindSpot"
+          link="http://noblindspot.onrender.com/"
+          description="Full-stack AI knowledge management platform for creating, organizing, and visualizing interconnected knowledge maps. Integrates OpenRouter-powered generation for structured nodes, topic relationships, summaries, and learning pathways."
+          techStack={[
+            "React.js",
+            "Node.js",
+            "MongoDB",
+            "JWT",
+            "OpenRouter API",
+          ]}
+          accent="from-cyan-300 via-teal-300 to-emerald-300"
+        />
+
+        <ProjectCard
           image="/shad0wbucks.png"
-          title="SHAD0WBUCKS"
+          title="Shad0wbucks"
           link="https://shad0wbucks.netlify.app/"
-          description="Frontend clone of Starbucks built with React featuring dynamic routing (React Router DOM), smooth product carousels (Swiper.js), and responsive design (Tailwind CSS). Includes essential e-commerce features like add to cart, item deletion, and secure email/password login via Firebase Auth."
+          description="Starbucks-inspired frontend with authentication, cart management, responsive UI, dynamic routing, and smooth product carousels. Uses Firebase Authentication for secure email/password login."
+          techStack={[
+            "React.js",
+            "React Router",
+            "Swiper.js",
+            "Tailwind CSS",
+            "Firebase",
+          ]}
+          accent="from-emerald-300 via-lime-300 to-teal-300"
         />
 
         <ProjectCard
           image="/fluxbasket.png"
-          title="FLUXBASKET"
-          link="https://github.com/shad0waryan/fluxbasket"
-          description="Clean, intuitive UI/UX with a fully functional cart management system. Leverages Next.js features like file-based routing and server-side rendering for performance, demonstrating component-based architecture and stateful logic."
-        />
-
-        <ProjectCard
-          image="/triviatap.png"
-          title="TRIVIATAP"
-          link="https://github.com/shad0waryan/triviatap"
-          description="Interactive quiz application built with React and dynamic state management. Features conditional rendering based on quiz progress and user interactions, with final score calculation and display for a seamless experience."
-        />
-
-        <ProjectCard
-          image="/xoclash.png"
-          title="XOCLASH"
-          link="https://github.com/shad0waryan/xoclash"
-          description="Turn-based Tic-Tac-Toe game, built in C++ with real-time input handling and smooth board rendering via SFML. Highlights object-oriented design principles and responsive gameplay mechanics."
+          title="FluxCart"
+          link="https://fluxcart-0ptw.onrender.com/"
+          description="Next.js e-commerce platform with product browsing and cart management. Built with reusable TypeScript components, type-safe API contracts, server-side rendering, and file-based routing for performance and SEO."
+          techStack={["Next.js", "TypeScript", "Tailwind CSS", "SSR"]}
+          accent="from-sky-300 via-indigo-300 to-fuchsia-300"
         />
       </div>
     </section>
