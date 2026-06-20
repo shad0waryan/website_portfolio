@@ -72,7 +72,7 @@ export function Socials() {
             className="opacity-60 hover:opacity-100  text-gray-400 cursor-pointer"
           />
         </a>
-       
+        
       </div>
     </div>
   );
