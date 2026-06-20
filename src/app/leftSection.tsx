@@ -72,19 +72,7 @@ export function Socials() {
             className="opacity-60 hover:opacity-100  text-gray-400 cursor-pointer"
           />
         </a>
-        <a
-          href="https://www.geeksforgeeks.org/user/aryanagrawal84397/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="/gfg.png"
-            alt="GeeksForGeeks Profile"
-            title="GeeksForGeeks Profile"
-            width={40}
-            className="opacity-60 hover:opacity-100  text-gray-400 cursor-pointer"
-          />
-        </a>
+       
       </div>
     </div>
   );
